@@ -48,6 +48,6 @@ public class Employees {
 
     @Override
     public String toString() {
-        return "Сотрудник " + id + " Ф.И.О. " + employeeName.toString() + " Из отдела " + department + " Получает зарплату: " + salary;
+        return "Сотрудник " + id + employeeName.toString() + " Из отдела " + department + " Получает зарплату: " + salary;
     }
 }

@@ -40,6 +40,17 @@ public class Main {
             }
         }
         System.out.println(maxEmployeeSalary);
+
+        double averageSalary = 0;
+        for (int i = 0; i < employee.length; i++) {
+            averageSalary += employee[i].getSalary() / employee.length;
+        }
+        System.out.println(averageSalary);
+
+        for (int i = 0; i < employee.length; i++) {
+            System.out.println(employee[i].getEmployeeName());
+
+        }
     }
 
 
