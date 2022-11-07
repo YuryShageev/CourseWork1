@@ -1,7 +1,10 @@
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        Random department = new Random();
         Employees[] employee = new Employees[10];
         employee[0] = new Employees(new EmployeeName("Пух", "Винни", "Аланович"), 1, 80678);
         employee[1] = new Employees(new EmployeeName("Линдгред", "Карлсон", "Астридович"), 5, 103875);
